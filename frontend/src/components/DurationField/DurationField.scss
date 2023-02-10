@@ -1,0 +1,10 @@
+.duration-field__hh,
+.duration-field__mm {
+  &:before {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+    content: ':';
+  }
+}
